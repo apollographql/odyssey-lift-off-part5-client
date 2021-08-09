@@ -28,7 +28,9 @@ const ModulesNav = ({ module, track }) => {
                     <IconArrowRight width="14px" weight="thin" />
                   )}
                   <div>{navModule.title}</div>
-                  <div>{humanReadableTimeFromSeconds(navModule.length)}</div>
+                  <div>
+                    {humanReadableTimeFromSeconds(navModule.durationInSeconds)}
+                  </div>
                 </ModuleListItemContent>
               </ModuleNavStyledLink>
             </div>
