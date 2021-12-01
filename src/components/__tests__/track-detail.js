@@ -9,7 +9,7 @@ const mockTrack = {
     description: '# Pulchra vehi vidit misera sola armenta secabatur\n\n',
     thumbnail:
       'https://res.cloudinary.com/dety84pbu/image/upload/v1598465568/nebula_cat_djkt9r.jpg',
-    length: 2377,
+    durationInSeconds: 2377,
     modulesCount: 10,
     numberOfViews: 51,
     author: {
@@ -21,7 +21,7 @@ const mockTrack = {
       {
         id: 'l_0',
         title: 'Exploring Time and Space',
-        length: 258,
+        durationInSeconds: 258,
       },
     ],
   },
