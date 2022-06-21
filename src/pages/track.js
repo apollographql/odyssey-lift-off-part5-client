@@ -4,7 +4,7 @@ import { Layout, QueryResult } from '../components';
 import TrackDetail from '../components/track-detail';
 
 /** GET_TRACK gql query to retrieve a specific track by its ID */
-export const GET_TRACK = gql`
+const GET_TRACK = gql`
   query getTrack($trackId: ID!) {
     track(id: $trackId) {
       id

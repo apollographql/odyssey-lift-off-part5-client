@@ -6,7 +6,7 @@ import { Layout, ModuleDetail, QueryResult } from '../components';
  * GET_MODULE_AND_PARENT_TRACK gql query to retrieve a specific module and its parent track,
  * both needed for the ModuleDetail component
  */
-export const GET_MODULE_AND_PARENT_TRACK = gql`
+const GET_MODULE_AND_PARENT_TRACK = gql`
   query getModuleAndParentTrack($moduleId: ID!, $trackId: ID!) {
     module(id: $moduleId) {
       id
