@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "description": "front-end demo app for Apollo's lift-off IV course",
+  "engines": {
+    "node": "16.14.2"
+  },
   "dependencies": {
     "@apollo/client": "^3.3.6",
     "@apollo/space-kit": "^9.3.1",
