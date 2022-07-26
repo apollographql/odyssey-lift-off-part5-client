@@ -18,7 +18,7 @@
     "react-emotion": "^10.0.0",
     "react-markdown": "^6.0.2",
     "react-player": "^2.6.0",
-    "react-scripts": "^4.0.3"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -47,6 +47,9 @@
     "@testing-library/user-event": "^7.1.2",
     "apollo": "^2.30.2"
   },
+  "engines":{
+    "npm":"8.5.0"
+   },
   "main": "src/index.js",
   "author": "Raphael Terrier @R4ph-t",
   "license": "MIT"
