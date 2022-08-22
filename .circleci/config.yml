@@ -26,4 +26,4 @@ jobs:
 workflows:
   say-hello-workflow:
     jobs:
-      - say-hello
+      - react-build
