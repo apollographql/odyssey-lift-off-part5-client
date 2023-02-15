@@ -34,7 +34,6 @@ const TrackCard = ({ track }) => {
     // to observe what the mutation response returns
     onCompleted: (data) => {
       console.log(data);
-      console.log(track);
     },
   });
 
